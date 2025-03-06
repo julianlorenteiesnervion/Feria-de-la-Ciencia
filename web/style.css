@@ -15,7 +15,10 @@ body {
 }
 
 .btn {
-    display: grid;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
     place-items: center;
     background: #e3edf7;
     padding: 1.4em;
@@ -68,4 +71,3 @@ button {
     transform: translate(0.05em, 0.05em);
     box-shadow: 0.05em 0.05em;
   }
-  
